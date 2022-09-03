@@ -1,0 +1,58 @@
+nav div li
+{
+    display: inline-block;
+}
+nav div{
+    display: inline-block;
+}
+.logo img
+{
+    width: 40px;
+    position:relative;
+    left: 10px;
+    top: 1px;
+    z-index: 1;
+    border-radius: 27px;
+}
+/* .logo
+{
+    position: relative;
+} */
+.nav_links
+{
+    position:absolute;
+    left: 800px;
+    top: 10px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+a{
+    text-decoration: none;
+    color: aqua;
+    position: relative;
+    bottom: 4px;
+}
+a:hover{
+    color:red;
+}
+.nav_bar
+{
+    background-color: rgb(12, 11, 11);
+    height: 40px;
+    width: 100%;;
+    margin-top: 0;
+    position: absolute;
+
+}
+li{
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    bottom: 8px;
+    
+}
+.bg_col
+{
+    background: linear-gradient(to right,#9c27b0,#8ecdff);
+    
+}
